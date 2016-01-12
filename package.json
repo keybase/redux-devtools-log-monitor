@@ -2,7 +2,7 @@
   "name": "redux-devtools-log-monitor",
   "version": "1.0.1",
   "description": "The default tree view monitor for Redux DevTools",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "build": "babel src --out-dir lib",
