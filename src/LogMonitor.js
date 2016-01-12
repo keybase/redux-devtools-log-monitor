@@ -84,7 +84,7 @@ export default class LogMonitor extends Component {
     }
 
     node.scrollTop = this.props.monitorState.initialScrollTop;
-    this.interval = setInterval(::this.updateScrollTop, 1000);
+    // this.interval = setInterval(::this.updateScrollTop, 1000);
   }
 
   componentWillUnmount() {
